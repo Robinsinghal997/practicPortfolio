@@ -24,7 +24,15 @@
     "imageSrc": "skills/mongodb.png"
   },
   {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "title": "Mysql",
+    "imageSrc": "skills/mySQL.png"
+  },
+  {
+    "title": "JS",
+    "imageSrc": "skills/JS.png"
+  },
+  {
+    "title": "Socket.io",
+    "imageSrc": "skills/Socketio.png"
   }
 ]

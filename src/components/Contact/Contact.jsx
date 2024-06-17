@@ -1,36 +1,81 @@
+// import { getImageUrl } from "../../utils";
+import "./Contact.css";
+import { useState } from "react";
+import data from "../../Data/contact.json";
 import { getImageUrl } from "../../utils";
-import style from "./Contact.module.css";
+
 const Contact = () => {
+  const [result, setResult] = useState("");
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "7142449c-b018-4158-868a-022e46a5464d");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   return (
-    <footer className={style.contact}>
-      <div className={style.text}>
-        <h2>Contact</h2>
-        <p>feel Free to React out me</p>
+    <div className="contact" id="contacts">
+      <div className="contact-col">
+        <h3>
+          Send me the message{" "}
+          <img src={getImageUrl("contact/msg-icon.png")} alt="Message_Icon" />
+        </h3>
+        <p>{data.description}</p>
+        <ul>
+          {data.contact.map((item, id) => (
+            <li key={id}>
+              <img src={getImageUrl(item.imageurl)} alt="EmailIcon" />{" "}
+              {item.url}
+            </li>
+          ))}
+        </ul>
       </div>
-      <ul className={style.links}>
-        <li className={style.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email Icon" />
-          <a href="mailto :Robinsinghal997@gmail.com ">
-            RobinSinghal997@gmail.com
-          </a>
-        </li>
-        <li className={style.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="Linked Icon"
+      <div className="contact-col">
+        <form onSubmit={onSubmit}>
+          <label> Your Name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your name "
+            required
           />
-          <a href="https://www.linkedin.com/myname ">
-            linkedin.com/in/robin-singhal-12125b1b0/
-          </a>
-        </li>
-        <li className={style.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Git Icon" />
-          <a href="https://github.com/Robinsinghal997">
-            github.com/Robinsinghal997
-          </a>
-        </li>
-      </ul>
-    </footer>
+          <label> Phone No</label>
+          <input
+            type="tell"
+            name="phone"
+            placeholder="Enter Your Mobile no"
+            required
+          />
+          <label> Write your Message here </label>
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Enter your Message"
+            required
+          ></textarea>
+          <button type="submit" className="btn darkbtn">
+            {" "}
+            Submit Now
+          </button>
+        </form>
+        <span>{result}</span>
+      </div>
+    </div>
   );
 };
 

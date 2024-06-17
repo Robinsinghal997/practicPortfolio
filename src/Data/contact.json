@@ -1,0 +1,17 @@
+{
+  "contact": [
+    {
+      "url": "Robinsinghal997@gmail.com",
+      "imageurl": "contact/emailIcon.png"
+    },
+    {
+      "url": "https://github.com/Robinsinghal997",
+      "imageurl": "contact/githubIcon.png"
+    },
+    {
+      "url": "https://www.linkedin.com/in/robin-singhal-12125b1b0",
+      "imageurl": "contact/linkedinIcon.png"
+    }
+  ],
+  "description":"hello"
+}
