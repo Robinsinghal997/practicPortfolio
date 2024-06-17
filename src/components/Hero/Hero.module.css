@@ -3,7 +3,7 @@
 .container {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: center;  
   justify-content: space-between;
   margin-top: 49px;
   z-index: 1;
@@ -20,8 +20,8 @@
 }
 
 .title {
-  font-size: 72px;
-  font-weight: 700;
+  font-size: 60px;
+  font-weight: 600;
   margin-bottom: 33px;
   font-family: var(--font-robot);
   background: linear-gradient(
@@ -34,7 +34,7 @@
 }
 
 .desc {
-  font-size: 30px;
+  font-size: 25px;
   font-family: var(--font-robot);
   margin-bottom: 52px;
 }
@@ -44,9 +44,9 @@
   background-color: var(--color-primary);
   color: var(--color-text);
   border-radius: 100px;
-  font-size: 30px;
-  font-weight: 600;
-  padding: 17px 26px;
+  font-size: 36px;
+  font-weight: 400;
+  padding: 10px 20px;
 }
 
 .heroImg {

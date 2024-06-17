@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "name": "Hi I'am Robin Singhal",
+    "Description": "Software Developer",
+    "email": "RobinSinghal997@gmail.com",
+    "imageUrl": "hero/24-removebg-preview.png"
+  },
+  "about": {
+    "SideImage": "about/28-removebg-preview2.png",
+    "aboutItems": [
+      {
+        "ImageUrl": "about/cursorIcon.png",
+        "title": "Web Development",
+        "description": "I am a web developer with 2 years of experience in the field of web development. I have worked on various projects and have a good understanding of HTML, CSS, JavaScript, and React. I have also worked on Node.js and Express.js. I am currently learning Next.js and Django. I"
+      },
+      {
+        "ImageUrl": "about/serverIcon.png",
+        "title": "Web Development",
+        "description": "I am a web developer with 2 years of experience in the field of web development. I have worked on various projects and have a good understanding of HTML, CSS, JavaScript, and React. I have also worked on Node.js and Express.js. I am currently learning Next.js and Django. I"
+      },
+      {
+        "ImageUrl": "about/uiIcon.png",
+        "title": "Web Development",
+        "description": "I am a web developer with 2 years of experience in the field of web development. I have worked on various projects and have a good understanding of HTML, CSS, JavaScript, and React. I have also worked on Node.js and Express.js. I am currently learning Next.js and Django. I"
+      }
+    ]
+  }
+}

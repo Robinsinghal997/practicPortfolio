@@ -2,7 +2,7 @@ import style from "./ProjectCart.module.css";
 
 import { getImageUrl } from "../../utils";
 
-const ProjectCart = ({ project }) => {
+const ProjectCart = ({project}) => {
   return (
     <div className={style.container}>
       <img src={getImageUrl(project.imageSrc)} alt={project.title} />
