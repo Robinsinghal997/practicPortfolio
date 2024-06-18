@@ -1,7 +1,7 @@
 {
   "hero": {
     "name": "Hi I'am Robin Singhal",
-    "Description": "Software Developer",
+    "Description": "I am a fully committed individual who possesses three years of development experience in the areas of backend and frontend. They are advanced technologies like Node, which I have in mind to design strong and scalable application. js, React, and PostgreSQL. Throughout my career I have made it my business to exceed expectations in all aspects of Web application development, from aesthetic and interactive Custom UI templates to functional web services.",
     "email": "RobinSinghal997@gmail.com",
     "imageUrl": "hero/24-removebg-preview.png"
   },
@@ -10,18 +10,18 @@
     "aboutItems": [
       {
         "ImageUrl": "about/cursorIcon.png",
-        "title": "Web Development",
-        "description": "I am a web developer with 2 years of experience in the field of web development. I have worked on various projects and have a good understanding of HTML, CSS, JavaScript, and React. I have also worked on Node.js and Express.js. I am currently learning Next.js and Django. I"
+        "title": "Frontend Development",
+        "description": "I specialize in frontend development using HTML, CSS, JavaScript, and ReactJS. I create dynamic, responsive web applications with clean, efficient code. My expertise includes building user-friendly interfaces, ensuring cross-browser compatibility, and optimizing performance for seamless user experiences."
       },
       {
         "ImageUrl": "about/serverIcon.png",
-        "title": "Web Development",
-        "description": "I am a web developer with 2 years of experience in the field of web development. I have worked on various projects and have a good understanding of HTML, CSS, JavaScript, and React. I have also worked on Node.js and Express.js. I am currently learning Next.js and Django. I"
+        "title": "Backend Development",
+        "description": "When it comes to backend development, especially with Node, I am proficient. javascript, Express, MongoDB, and MySQL. Personally, I develop stable and highly scalable server-side applications with well-designed API and DB management and data flow. My areas of specialization include keeping the Systems safe and optimally performing to allow the users and the business to enjoy optimal user interfaces and business processes."
       },
       {
         "ImageUrl": "about/uiIcon.png",
         "title": "Web Development",
-        "description": "I am a web developer with 2 years of experience in the field of web development. I have worked on various projects and have a good understanding of HTML, CSS, JavaScript, and React. I have also worked on Node.js and Express.js. I am currently learning Next.js and Django. I"
+        "description": "I specialize in full-stack web development, combining frontend technologies like HTML, CSS, JavaScript, and ReactJS with backend tools like Node.js, Express, MongoDB, and MySQL. I create comprehensive, responsive web applications that ensure seamless user experiences and robust server-side functionality, delivering high-quality, scalable solutions."
       }
     ]
   }

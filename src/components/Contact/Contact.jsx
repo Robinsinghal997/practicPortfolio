@@ -44,6 +44,9 @@ const Contact = () => {
             </li>
           ))}
         </ul>
+        <div className="thankyou">
+          <p>Thank you for visiting my portfolio!</p>
+        </div>
       </div>
       <div className="contact-col">
         <form onSubmit={onSubmit}>

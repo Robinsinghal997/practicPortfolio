@@ -55,6 +55,13 @@
   margin-right: 10px;
 }
 
+.thankyou p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px ;
+  font-weight: 500;
+}
+
 .contact form input,
 .contact form textarea {
   display: block;
@@ -90,4 +97,17 @@
 }
 .btn:hover {
   background-color: #a7b0d4;
+}
+
+@media screen and (max-width: 830px) {
+  .contact {
+    display: block;
+  }
+  .contact-col {
+    padding-bottom: 30px;
+  }
+  .contact-col ul li {
+    word-break: break-all;
+    margin-bottom: 0px;
+  }
 }

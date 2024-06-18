@@ -16,16 +16,16 @@
 
 .title {
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
 }
 
-.skills{
+.skills {
   width: 100%;
   margin-top: 14px;
   display: flex;
@@ -33,26 +33,24 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
-
 }
 
-.skill{
+.skill {
   font-size: 21px;
   font-weight: 300;
   border-radius: 100px;
   background: var(--color-dark);
   padding: 2px 22px;
-
 }
 
-.links{
+.links {
   width: 100%;
   margin-top: 24px;
   display: flex;
   justify-content: space-around;
 }
 
-.link{
+.link {
   text-decoration: none;
   color: var(--color-text);
   font-size: 20px;

@@ -34,5 +34,9 @@
   {
     "title": "Socket.io",
     "imageSrc": "skills/Socketio.png"
+  },
+  {
+    "title": "Redis",
+    "imageSrc": "skills/Redis2.png"
   }
 ]
