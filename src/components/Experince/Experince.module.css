@@ -72,7 +72,8 @@
   padding: 24px;
 }
 .historyItem  img{
- width: 50px;
+ width: 100px;
+ margin-right: -40px;
 }
 
 .historyItemDetails{
